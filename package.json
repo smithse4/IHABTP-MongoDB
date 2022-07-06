@@ -1,0 +1,25 @@
+{
+  "name": "ihabtp-mongodb",
+  "version": "1.0.0",
+  "description": "A continuation of simple json database version of [IHABTP](https://github.com/smithse4/IHABTP).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smithse4/IHABTP-MongoDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smithse4/IHABTP-MongoDB/issues"
+  },
+  "homepage": "https://github.com/smithse4/IHABTP-MongoDB#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.3"
+  }
+}
