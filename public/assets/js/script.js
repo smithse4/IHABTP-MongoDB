@@ -19,7 +19,8 @@ const collectBone = async function(event) {
         headers: { 'Content-Type': 'application/json' },
     });
 
-    displayBones();
+    // displayBones();
+    getAndRenderBones();
 
     antag.value = "";
     bone.value = "";
